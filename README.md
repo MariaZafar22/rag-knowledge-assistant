@@ -94,8 +94,7 @@ Add more `.txt` files to `knowledge_base/`. The app re-reads them on every start
 Computer Science student | AI/ML and app developer
 
 **GitHub:** [MariaZafar22](https://github.com/MariaZafar22)
-**LinkedIn:** [MariaZafar22](https://www.linkedin.com/in/MariaZafar22)
 
-> **An AI that admits what it does not know is more useful than one that guesses with confidence.**
+ **An AI that admits what it does not know is more useful than one that guesses with confidence.**
 
-If this project helped you, a ⭐ on the repo means a lot.
+
