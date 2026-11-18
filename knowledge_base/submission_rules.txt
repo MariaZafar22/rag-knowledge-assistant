@@ -1,0 +1,16 @@
+Submission Requirements
+Submit the completed mini Generative AI application, the source code or repository link, screenshots of the working application and a short presentation or video demonstrating the project.
+
+The presentation should explain the problem, target users, solution, technologies used, the GenAI concepts implemented and the main workflow. The published LinkedIn post link must also be submitted.
+
+Submission Form
+The submission form allows up to 4 images (PNG or JPG, up to 5MB each). Alternatively one file can be attached (PDF, DOC or DOCX, up to 10MB). Images are optional if a file is attached, and a file is optional if images are attached. There is also an optional description box for notes or questions for the reviewer.
+
+Privacy and Security Rules
+Make sure the LinkedIn post and screenshots do not expose API keys, passwords, private information or other sensitive data. Never upload the .env file to GitHub or share it in screenshots.
+
+LinkedIn Post Requirements
+Create a professional LinkedIn post showcasing the mini project. Mention what you built, what you learned and which technologies or concepts you used. You may also mention participation in the Big Brains Generative AI internship and tag the official Big Brains LinkedIn Page or Shoaib Hamza. Publish the post and submit the post link along with the project submission.
+
+What Happens After Day 16
+After completing today's task, interns are ready to move from guided learning into the project phase. The remaining internship days focus more heavily on building practical, portfolio-ready Generative AI and AI automation projects.

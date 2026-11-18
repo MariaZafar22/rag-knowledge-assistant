@@ -1,0 +1,14 @@
+Day 16 Overview
+Day 16 is the final learning day of the Generative AI section. Interns build and present a mini Generative AI application by combining concepts learned in Days 1 to 14: LLMs, prompt engineering, structured outputs, APIs, embeddings, vector databases, RAG, function calling, AI agents, multimodal AI and AI evaluation. It is not required to use every concept.
+
+Practical Task
+Build one complete mini Generative AI application and demonstrate it through a short presentation or video. The project must solve a clear problem and use at least two concepts learned during Days 1 to 14. A production-level application is not expected.
+
+Steps of the Task
+Step 1: Review concepts from Days 1 to 14. Step 2: Choose one small real-world problem. Step 3: Define the application before coding: problem, target users, main feature, AI model and what the user can do. Step 4: Decide which GenAI concepts to use. Step 5: Create the simplest working version. Step 6: Improve behavior with a good prompt (role, instructions, context, output format). Step 7: Add one useful feature beyond basic text generation, such as retrieval, structured JSON output, a custom tool, conversation history, image understanding or an evaluation check. Step 8: Test with at least five different inputs, including normal requests, edge cases and at least one request where the required information is unavailable. Step 9: Fix problems found, such as incorrect information, inconsistent output or wrong tool use. Step 10: Prepare a short presentation or video demonstration. Step 11: Create a professional LinkedIn post. Step 12: Publish the post and submit the link with the project.
+
+Example Project Ideas
+AI study assistant, document Q&A assistant, customer support assistant, resume improvement assistant, AI content assistant, product information assistant, university knowledge assistant.
+
+Testing Requirements
+Test the application with at least five different inputs. Include normal requests, edge cases and at least one request where the required information is unavailable. Check whether the AI gives incorrect information, produces inconsistent output or fails to use a tool correctly, then update the prompt, retrieval, tool handling or validation logic.

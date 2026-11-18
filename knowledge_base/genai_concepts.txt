@@ -1,0 +1,32 @@
+Large Language Models (LLMs)
+A Large Language Model is a neural network trained on a huge amount of text to predict the next token. It can answer questions, summarize, translate and write code. LLMs can make mistakes or invent facts, which is called hallucination.
+
+Prompt Engineering
+Prompt engineering means writing clear instructions for an LLM. A good prompt defines the role of the assistant, the rules it must follow, the context it can use and the exact output format. Giving examples and asking for structured output makes responses more reliable.
+
+Structured Outputs
+Structured output means asking the model to return data in a fixed format such as JSON. The application can then parse and validate the response with code. Validation is important because the model may return invalid JSON or missing fields.
+
+Embeddings
+An embedding is a list of numbers that represents the meaning of a text. Texts with similar meaning have embeddings that are close to each other. Cosine similarity is commonly used to measure how close two embeddings are.
+
+Vector Databases
+A vector database stores embeddings and quickly finds the ones most similar to a query embedding. Examples include FAISS, Chroma and Pinecone. For a very small knowledge base, a simple in-memory NumPy array can do the same job.
+
+RAG (Retrieval-Augmented Generation)
+RAG combines retrieval with generation. The documents are split into chunks and converted to embeddings. When the user asks a question, the most similar chunks are retrieved and given to the LLM as context. The LLM answers only from that context, which reduces hallucination and allows answers about private or recent data.
+
+Function Calling
+Function calling lets the LLM request the use of a tool. The developer describes each tool with a name, a description and a JSON schema of its parameters. The model returns the tool name and arguments, the application runs the function and sends the result back to the model, which then writes the final answer. Function calling is useful for exact tasks such as date calculation, database lookup or calling an API.
+
+AI Agents
+An AI agent is an LLM that can plan, choose tools, observe the results and repeat until the task is done. Agents are built on top of function calling and a loop with a stop condition.
+
+Multimodal AI
+Multimodal AI models understand more than one type of input, such as text, images, audio or video. An example is asking a model to describe an uploaded image or extract text from a screenshot.
+
+AI Evaluation
+AI evaluation checks whether the output of an AI system is correct, safe and consistent. Simple evaluation methods include test cases with expected results, schema validation, checking that cited sources really exist, and checking that answers are grounded in the retrieved context. Evaluation should be repeated every time the prompt or retrieval logic changes.
+
+Handling Edge Cases
+Edge cases are unusual or difficult inputs, such as questions with missing information, questions unrelated to the topic, empty input, very long input or mixed languages. A reliable assistant should say clearly when it does not know the answer instead of guessing.
